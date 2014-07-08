@@ -1,0 +1,166 @@
+body { background-color: #BDC8D3;}
+
+input {
+  border: 1px solid #3F3F3F;
+}
+
+#mainContent {
+  background-color: #DDDDDD;
+  color: #3F3F3F;
+}
+
+select {
+  border: 1px solid #3F3F3F;
+  margin: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+
+option {
+  border: 1px solid #3F3F3F;
+  border: 0;
+}
+
+#taskInputField {
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: xx-large;
+  border: 0;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#taskInputField:focus {
+  width: 80%;
+  font-size: xx-large;
+  background-color: #FBEC5D;;
+}
+
+#taskInputField:focus:focus {
+  color: #000000;
+}
+
+#taskTextInputField {
+  border: solid 1px #000000;
+  width: 80%;
+  border: 0;
+  background-color: #AFAFAF;
+  color: #FFFFFF;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#taskTextInputField:focus {
+  color: #000000;
+}
+
+.formRow label {
+  float: left;
+  width: 10%;
+  padding-right: 20px;
+  text-align: left;
+}
+
+#taskTextInputField:focus {
+  height: 50%;
+}
+form {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#taskLink {
+  display: block;
+}
+
+#goButton {
+  width: 0;
+  margin: 0px auto;
+}
+
+.inputForm {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #AFAFAF;
+  padding-top: 20px;
+  margin-bottom: 100px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.inputForm input {
+  margin: 10px;
+  background-color: #AFAFAF;
+  color: #FFFFFF;
+}
+
+.inputForm label {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.done {
+  width: 20px;
+  color: #33AA33;
+  padding: 10px;
+}
+
+.notDone {
+  width: 20px;
+  color: #AA3333;
+  padding: 10px;
+}
+
+.statusIndicator {
+  float: left;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:link {
+  color: #000000;
+}
+
+#task {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 1px #AFAFAF;
+  font-size: large;
+}
+
+#task:hover {
+  background-color: #DFDFDF;
+}
+
+#taskID {
+  display: inline-block;
+  float: right;
+  color: #AFAFAF;
+}
+
+#taskID:before {
+  content: '('
+  color: #AFAFAF;
+}
+
+#taskID:before {
+  content: ')'
+  color: #AFAFAF;
+}

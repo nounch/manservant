@@ -1,0 +1,85 @@
+#taskEditForm {
+  background-color: #3399CC;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#taskEditForm * {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#taskEditForm label {
+  margin-left: 15px;
+  color: #FFFFFF;
+}
+
+#taskEditForm h1 {
+  background-color: #55AAEE;;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-topleft: 10px;
+  border-radius-topleft: 10px;
+
+  -moz-border-radius-topright: 10px;
+  -webkit-border-topright: 10px;
+  border-radius-topright: 10px;
+}
+
+.formLine label {
+  float: left;
+  width: 10%;
+}
+
+select {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+
+
+textarea {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+
+textarea:focus {
+  height: 50%;
+}
+
+.formLine input {
+  width: 85%;
+  font-size: xx-large;
+  border: 0;
+}
+
+.submitButton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0px;
+}
+
+.submitButton input {
+  background-color: #FFFFFF;
+}
+
+#backLink {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  color: #3399CC;
+}

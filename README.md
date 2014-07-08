@@ -30,7 +30,7 @@ The web app itself is a basic Bottle application that spawns processes for
 the tools described above every time the users posts a search query.
 
 **Side note**:
-Manservant also comes with an SQLite3 database `test.db` and some code
+Manservant also comes with a SQLite3 database `test.db` and some code
 interfacing with it (`createdb.py` and `populatedb.py`). The database is
 not required for manpage viewing, but may be used to built in some level of
 persistence in the future (tagging manpages or keeping a list of
